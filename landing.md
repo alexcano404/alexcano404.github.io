@@ -91,10 +91,10 @@ nav-menu: true
 		 <li>Latex (Intermediate)</li>
 		 <li>Markdown (Intermediate)</li>
 		</ul></p>
-				<ul class="actions">
+				<!--<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul>
-			</div>
+			</div>-->
 		</div>
 	</section>
 </section>
