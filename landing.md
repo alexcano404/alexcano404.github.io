@@ -68,9 +68,9 @@ nav-menu: true
  		 <li>Groundwork in Operator Algebras Lecture Series, 2023, Purdue University</li>
  		 <li>East Coast Operator Algebras Symposium, 2023, Purdue University</li>
 		</ul></p>
-				<ul class="actions">
+				<!--<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
+				</ul>-->
 			</div>
 		</div>
 	</section>
