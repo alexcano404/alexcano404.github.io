@@ -4,20 +4,20 @@ title: About me
 image: assets/images/IMG_20240316_115207.jpg
 nav-menu: true
 ---
-
 <!-- Main -->
+
 <div id="main" class="alt">
 
 <!-- One -->
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Elements</h1>
+			<h1>About me</h1>
 		</header>
 
 <!-- Content -->
-<h2 id="content">Sample Content</h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+<h2 id="content">Background</h2>
+<p>I was born in Medellin, Colombia, and later immigrated to the United States in 2014. After settling here in the United States, I pursued a dual major in Pure Mathematics and Economics at the University of South Florida. Under the mentorship of Dr. Thomas Bieske, I completed my undergraduate studies in 2022. Currently, I am continuing my academic journey at Purdue University, where I am part of the mathematics department. Under the guidance of Dr. Andrew Toms, my research centers around the interplay between induced measures and tracial states. Specifically, I explore these concepts within the context of self-adjoint elements in a $\mathcal{Z}$-stable C∗-algebra. Additionally, I investigate the fine structures that the Cuntz semigroup retains from a given $C^∗$-algebra.</p>
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Sem turpis amet semper</h3>
