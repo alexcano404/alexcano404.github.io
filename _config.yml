@@ -1,7 +1,7 @@
 # site settings
 title: Alejandro Cano
 # subtitle: by HTML5 UP
-email: cano13 at purdue dot edu
+email: cano13@purdue.edu
 description: I am a 2nd year mathematics student at Purdue University working under Dr. Andrew Toms.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
