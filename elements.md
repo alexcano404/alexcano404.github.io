@@ -14,6 +14,7 @@ nav-menu: true
 		<header class="major">
 			<h1>About me</h1>
 		</header>
+		<script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <!-- Content -->
 <h2 id="content">Background</h2>
