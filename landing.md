@@ -33,17 +33,25 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/IMG_20240106_170151.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Orci maecenas</h3>
+					<h3>Courses taught</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
+				<p><ul>
+ 		 <li>Fall 2021 MAS 3105 (Linear Algebra), Teaching Assistant, University of South Florida.</li>
+ 		 <li>Spring 2022 MGF 3301 (Bridge to Abstract Math), Teaching Assistant, University of South Florida.</li>
+  		 <li>Fall 2022 MA 16200 (Calculus II), Recitation, Purdue University.</li>
+		 <li>Spring 2023 MA 16100 (Calculus I), Recitation, Purdue University.</li>
+  		 <li>Summer 2023 MA 35100 (Linear Algebra), Teaching Assistant, Purdue University.</li>
+		 <li>Fall 2023 MA 15800 (Precalculus- Functions and Trigonometry), Instructor, Purdue University.</li>
+  		 <li>Spring 2024 MA 26100 (Calculus III), Recitation, Purdue Univerity</li>
+		</ul></p>
+				<!--<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
+				</ul>-->
 			</div>
 		</div>
 	</section>
