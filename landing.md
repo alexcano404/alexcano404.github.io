@@ -67,6 +67,8 @@ nav-menu: true
 				<p><ul>
  		 <li>Groundwork in Operator Algebras Lecture Series, 2023, Purdue University</li>
  		 <li>East Coast Operator Algebras Symposium, 2023, Purdue University</li>
+		 <li>Noncommutativity in the North – MikaelFest, 2024, Chalmers University of Technology and University of Gothenburg</li>
+		 <li>Great Plains Operator Theory Symposium, 2024, University of Nebraska–Lincoln</li>
 		</ul></p>
 				<!--<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
@@ -81,9 +83,14 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Sed nunc ligula</h3>
+					<h3>Technical Skills</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p><ul>
+ 		 <li>Python3 (Intermediate)</li>
+ 		 <li>HTML5 (Entry-level)</li>
+		 <li>Latex (Intermediate)</li>
+		 <li>Markdown (Intermediate)</li>
+		</ul></p>
 				<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul>
@@ -93,6 +100,7 @@ nav-menu: true
 </section>
 
 <!-- Three -->
+<!--
 <section id="three">
 	<div class="inner">
 		<header class="major">
@@ -104,5 +112,5 @@ nav-menu: true
 		</ul>
 	</div>
 </section>
-
+-->
 </div>
