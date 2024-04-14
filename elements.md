@@ -9,12 +9,15 @@ nav-menu: true
 <div id="main" class="alt">
 
 <!-- One -->
+<head>
+<script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
 <section id="one">
 	<div class="inner">
 		<header class="major">
 			<h1>About me</h1>
 		</header>
-		<script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+		
 
 <!-- Content -->
 <h2 id="content">Background</h2>
