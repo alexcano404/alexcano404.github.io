@@ -34,6 +34,10 @@ tiles-count: 6
 # build settings
 markdown: kramdown
 
+remote_theme: alexcano404/alexcano404.github.io
+plugins:
+  - jekyll-mathjax
+
 sass:
   style: compressed
 
