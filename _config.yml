@@ -33,6 +33,8 @@ tiles-count: 6
 
 # build settings
 markdown: kramdown
+kramdown:
+  math_engine: katex
 
 remote_theme: alexcano404/alexcano404.github.io
 
