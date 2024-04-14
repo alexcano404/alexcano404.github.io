@@ -13,9 +13,19 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Sed amet aliquam</h2>
+			<h2>Coursework</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+		<ul>
+ 		 <li>MA 554 Measure theory I</li>
+ 		 <li>MA 553 Abstract Algebra</li>
+  		 <li>MA 546 Functional Analysis</li>
+		 <li>MA 530 Complex Analysis</li>
+  		 <li>MA 598 C*-algebras and W*-algebras</li>
+		 <li>MA 572 Algebraic Topology</li>
+  		 <li>MA 595 Introduction to type III factors</li>
+		 <li>MA 598 Introduction to Operator K-theory</li>
+		 <li>MA 543 Ordinary Differential Equations and Dynamical Systems (Audited)</li>
+		</ul>
 	</div>
 </section>
 
