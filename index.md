@@ -8,4 +8,4 @@ author: null
 show_tile: false
 ---
 
-I am running the Student Operator Algebras Seminar along with the help of Hao Wan and Chrisil Ouseph.
+I am running the Student Operator Algebras Seminar with the help of Hao Wan and Chrisil Ouseph.
