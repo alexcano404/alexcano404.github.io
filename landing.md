@@ -18,6 +18,7 @@ nav-menu: true
 		<ul>
  		 <li>MA 554 Measure theory I</li>
  		 <li>MA 553 Abstract Algebra</li>
+		 <li>MA 544 Linear Algebra</li>
   		 <li>MA 546 Functional Analysis</li>
 		 <li>MA 530 Complex Analysis</li>
   		 <li>MA 598 C*-algebras and W*-algebras</li>
@@ -25,6 +26,7 @@ nav-menu: true
   		 <li>MA 595 Introduction to type III factors</li>
 		 <li>MA 598 Introduction to Operator K-theory</li>
 		 <li>MA 543 Ordinary Differential Equations and Dynamical Systems (Audited)</li>
+		 <li>MA 598 Introduction to the Cuntz semigroup and classification</li>
 		</ul>
 	</div>
 </section>
