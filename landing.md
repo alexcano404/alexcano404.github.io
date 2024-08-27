@@ -49,7 +49,7 @@ nav-menu: true
 		 <li>Spring 2023 MA 16100 (Calculus I), Recitation, Purdue University.</li>
   		 <li>Summer 2023 MA 35100 (Linear Algebra), Teaching Assistant, Purdue University.</li>
 		 <li>Fall 2023 MA 15800 (Precalculus- Functions and Trigonometry), Instructor, Purdue University.</li>
-  		 <li>Spring 2024 MA 26100 (Calculus III), Recitation, Purdue Univerity</li>
+  		 <li>Spring 2024 MA 26100 (Calculus III), Recitation, Purdue University</li>
 		</ul></p>
 				<!--<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
