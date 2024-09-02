@@ -27,6 +27,7 @@ nav-menu: true
 		 <li>MA 598 Introduction to Operator K-theory</li>
 		 <li>MA 543 Ordinary Differential Equations and Dynamical Systems (Audited)</li>
 		 <li>MA 598 Introduction to the Cuntz semigroup and classification</li>
+		 <li>MA 598 Introduction to Geophysical Fluid Dynamics</li>
 		</ul>
 	</div>
 </section>
