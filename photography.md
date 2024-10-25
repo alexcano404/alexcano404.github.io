@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Photography
-description: G4 Storm near Purdue University
+#description: G4 Storm near Purdue University
 image: assets/images/aurora-lafayette.png 
 nav-menu: true
 ---
