@@ -6,14 +6,16 @@ image: assets/images/aurora-lafayette.png
 nav-menu: true
 ---
 
-
-<hr />
-<img src="assets/images/chandra.png" alt="Description of the image" title=" Optionalimage title">
 G4 storm near Purdue University.
 <hr />
-<img src="assets/images/fall.jpg" alt="Description of the image" title=" Optionalimage title">
+<img src="assets/images/chandra.png" alt="Description of the image" title=" Optionalimage title">
+Part of a full moon in august (2024).
 
 <hr />
+<img src="assets/images/fall.jpg" alt="Description of the image" title=" Optionalimage title">
+Autumn in October (2024).
+<hr />
+
 
 
 
