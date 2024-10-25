@@ -2,7 +2,7 @@
 layout: post
 title: Photography
 #description: Lorem ipsum dolor est
-image: assets/images/IMG_20240414_002008.jpg
+image: assets/images/aurora-lafayette.png 
 nav-menu: true
 ---
 
