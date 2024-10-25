@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Photography
-#description: Lorem ipsum dolor est
+description: G4 Storm near Purdue University
 image: assets/images/aurora-lafayette.png 
 nav-menu: true
 ---
 
 
 <hr />
+<img src="assets/images/DSC_0291.png" alt="Description of the image" title="Optional image title">
 
 <hr />
