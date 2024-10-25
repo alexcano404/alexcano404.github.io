@@ -11,7 +11,7 @@ nav-menu: true
 <img src="assets/images/chandra.png" alt="Description of the image" title=" Optionalimage title">
 G4 storm near Purdue University.
 <hr />
-<img src="assets/images/chandra.png" alt="Description of the image" title=" Optionalimage title">
+<img src="assets/images/fall.jpg" alt="Description of the image" title=" Optionalimage title">
 
 <hr />
 
