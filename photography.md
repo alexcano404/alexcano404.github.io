@@ -6,6 +6,25 @@ image: assets/images/aurora-lafayette.png
 nav-menu: true
 ---
 
+
+<hr />
+<img src="assets/images/20240314_145907.jpg" alt="Description of the image" title=" Optionalimage title">
+<hr />
+<img src="assets/images/20240314_154834.jpg" alt="Description of the image" title=" Optionalimage title">
+<hr />
+<img src="assets/images/20240315_155143.jpg" alt="Description of the image" title=" Optionalimage title">
+<hr />
+<img src="assets/images/20240315_164435.jpg" alt="Description of the image" title=" Optionalimage title">
+<hr />
+<img src="assets/images/IMG_20240315_193643.jpg" alt="Description of the image" title=" Optionalimage title">
+<hr />
+
+
+
+
+
+
+
 G4 storm near Purdue University.
 <hr />
 <img src="assets/images/chandra.png" alt="Description of the image" title=" Optionalimage title">
