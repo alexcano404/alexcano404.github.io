@@ -30,9 +30,11 @@ Zion National Park, March (2024)
 
 <hr />
 <img src="assets/images/IMG_20240316_121054.jpg" alt="Description of the image" title=" Optionalimage title">
+
 Antelope Canyon X, March (2024)
 <hr />
 <img src="assets/images/IMG_20240316_115312.jpg" alt="Description of the image" title=" Optionalimage title">
+
 Antelope Canyon X, March (2024)
 
 <hr />
@@ -57,12 +59,6 @@ Kastellet, Copenhagen, June (2024)
 
 <hr />
 
-
-
-
-
-
-G4 storm near Purdue University.
 <hr />
 <img src="assets/images/chandra.png" alt="Description of the image" title=" Optionalimage title">
 Part of a full moon in August (2024).
