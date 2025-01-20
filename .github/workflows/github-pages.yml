@@ -13,3 +13,18 @@ jobs:
       - uses:  helaili/jekyll-action@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+
+- name: Upgrade RubyGems to latest
+        run: |
+          curl -sSL https://get.rvm.io | bash -s stable --ruby
+          source ~/.rvm/scripts/rvm
+          gem install rubygems-update
+          update_rubygems
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build the site
+        run: bundle exec jekyll build
