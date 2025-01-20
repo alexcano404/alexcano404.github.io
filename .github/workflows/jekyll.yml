@@ -1,11 +1,8 @@
 name: Deploy Jekyll site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 permissions:
@@ -24,21 +21,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Install Ruby using rbenv
-      - name: Install Ruby
+      # Install dependencies for building Ruby
+      - name: Install Ruby Dependencies
         run: |
-          sudo apt update
-          sudo apt install -y build-essential libssl-dev zlib1g-dev
-          curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-installer | bash
-          export PATH="$HOME/.rbenv/bin:$PATH"
-          eval "$(rbenv init - bash)"
-          rbenv install 3.1.4
-          rbenv global 3.1.4
-          ruby --version
+          sudo apt-get update
+          sudo apt-get install -y build-essential libssl-dev zlib1g-dev libreadline-dev
 
-      # Update RubyGems to meet Jekyll dependencies
-      - name: Update RubyGems
-        run: gem update --system
+      # Install Ruby using ruby-install
+      - name: Install Ruby with ruby-install
+        run: |
+          curl -fsSL https://github.com/postmodern/ruby-install/archive/v0.8.1.tar.gz | tar -xz
+          cd ruby-install-0.8.1
+          sudo make install
+          ruby-install ruby 3.1.4
+          echo 'export PATH="$HOME/.rubies/ruby-3.1.4/bin:$PATH"' >> $HOME/.bashrc
+          source $HOME/.bashrc
+          ruby --version
 
       # Install Bundler
       - name: Install Bundler
