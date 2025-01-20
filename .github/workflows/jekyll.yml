@@ -21,48 +21,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Install dependencies for building Ruby
-      - name: Install Ruby Dependencies
+      # Install Ruby using rbenv
+      - name: Install Ruby using rbenv
         run: |
           sudo apt-get update
           sudo apt-get install -y build-essential libssl-dev zlib1g-dev libreadline-dev
-
-      # Install Ruby using ruby-install
-      - name: Install Ruby with ruby-install
-        run: |
-          curl -fsSL https://github.com/postmodern/ruby-install/archive/v0.8.1.tar.gz | tar -xz
-          cd ruby-install-0.8.1
-          sudo make install
-          ruby-install ruby 3.1.4
-          echo 'export PATH="$HOME/.rubies/ruby-3.1.4/bin:$PATH"' >> $HOME/.bashrc
-          source $HOME/.bashrc
-          ruby --version
-
-      # Install Bundler
-      - name: Install Bundler
-        run: gem install bundler
-
-      # Install project dependencies
-      - name: Install Dependencies
-        run: bundle install
-
-      # Build the Jekyll site
-      - name: Build Jekyll Site
-        run: bundle exec jekyll build --destination _site
-        env:
-          JEKYLL_ENV: production
-
-      # Upload the artifact
-      - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v3
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-installer | bash
+          echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+          echo 'eval "$(rbenv init - bash)"'
