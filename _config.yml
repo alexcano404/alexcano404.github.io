@@ -35,6 +35,8 @@ tiles-count: 7
 # build settings.
 markdown: kramdown
 kramdown:
+  input: GFM
+
   math_engine: katex
   parse_block_html: true
 remote_theme: alexcano404/alexcano404.github.io
