@@ -10,6 +10,42 @@
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"></script>
     
     {% include head.html %}
+    <style>
+			.collapsible {
+			  background-color: #777;
+			  color: white;
+			  cursor: pointer;
+			  padding: 10px;
+			  width: 100%;
+			  border: none;
+			  text-align: left;
+			  outline: none;
+			  font-size: 15px;
+			}
+		  
+			.collapsible:hover {
+			  background-color: #555;
+			}
+		  
+			.collapsible:after {
+			  content: '\002B'; /* Unicode for "+" sign */
+			  font-size: 13px;
+			  float: right;
+			  margin-left: 5px;
+			}
+		  
+			.collapsible.active:after {
+			  content: '\2212'; /* Unicode for "−" sign */
+			}
+		  
+			.content {
+			  padding: 0 18px;
+			  display: none;
+			  overflow: hidden;
+			  background-color: #f1f1f1;
+			}
+		  </style>
+
   </head>
 
   <body>
@@ -54,5 +90,22 @@
         });
       });
     </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const coll = document.getElementsByClassName("collapsible");
+    for (let i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      const content = this.nextElementSibling;
+      if (content.style.display === "block") {
+      content.style.display = "none";
+      } else {
+      content.style.display = "block";
+      }
+    });
+    }
+  });
+  </script>
   </body>
 </html>
