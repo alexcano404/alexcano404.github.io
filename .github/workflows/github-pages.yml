@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy Jekyll Site
 
 on:
   push:
@@ -6,25 +6,26 @@ on:
       - master
 
 jobs:
-  github-pages:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses:  helaili/jekyll-action@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-      - name: Upgrade RubyGems to latest
-        run: |
-          curl -sSL https://get.rvm.io | bash -s stable --ruby
-          source ~/.rvm/scripts/rvm
-          gem install rubygems-update
-          update_rubygems
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7 # or the Ruby version you're using
 
-      - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle install
+    - name: Update RubyGems
+      run: gem update --system 3.3.22
 
-      - name: Build the site
-        run: bundle exec jekyll build
+    - name: Install dependencies
+      run: bundle install
+
+    - name: Build the Jekyll site
+      run: bundle exec jekyll build
+
+    - name: Deploy the site
+      run: bundle exec jekyll deploy
