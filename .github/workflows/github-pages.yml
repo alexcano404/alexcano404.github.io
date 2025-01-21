@@ -3,7 +3,7 @@ name: Build and Deploy Jekyll Site
 on:
   push:
     branches:
-      - master
+      - master  # Trigger deployment on push to the master branch
 
 jobs:
   build:
@@ -16,10 +16,13 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7 # or the Ruby version you're using
+        ruby-version: 3.1  # Consider upgrading to a more recent Ruby version
 
     - name: Update RubyGems
       run: gem update --system 3.3.22
+
+    - name: Install Bundler
+      run: gem install bundler  # Ensure Bundler is installed
 
     - name: Install dependencies
       run: bundle install
@@ -27,4 +30,8 @@ jobs:
     - name: Build the Jekyll site
       run: bundle exec jekyll build
 
-
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site  # The folder that contains the built Jekyll site
