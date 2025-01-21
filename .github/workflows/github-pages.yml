@@ -14,7 +14,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-- name: Upgrade RubyGems to latest
+      - name: Upgrade RubyGems to latest
         run: |
           curl -sSL https://get.rvm.io | bash -s stable --ruby
           source ~/.rvm/scripts/rvm
