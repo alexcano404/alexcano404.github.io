@@ -36,7 +36,7 @@ tiles-count: 7
 markdown: kramdown
 kramdown:
   math_engine: katex
-
+  parse_block_html: true
 remote_theme: alexcano404/alexcano404.github.io
 
 
