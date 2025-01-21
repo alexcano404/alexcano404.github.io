@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'jekyll', '~> 4.2'
+gem 'jekyll', '~> 3.9.2'
 gem 'mathjax-renderer'
 gem 'jekyll-mathjax-csp'
 gem 'kramdown-math-katex'
