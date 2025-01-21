@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+
+
+
+
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+		<style>
+			.collapsible {
+			  background-color: #777;
+			  color: white;
+			  cursor: pointer;
+			  padding: 10px;
+			  width: 100%;
+			  border: none;
+			  text-align: left;
+			  outline: none;
+			  font-size: 15px;
+			}
+		  
+			.collapsible:hover {
+			  background-color: #555;
+			}
+		  
+			.collapsible:after {
+			  content: '\002B'; /* Unicode for "+" sign */
+			  font-size: 13px;
+			  float: right;
+			  margin-left: 5px;
+			}
+		  
+			.collapsible.active:after {
+			  content: '\2212'; /* Unicode for "−" sign */
+			}
+		  
+			.content {
+			  padding: 0 18px;
+			  display: none;
+			  overflow: hidden;
+			  background-color: #f1f1f1;
+			}
+		  </style>
+	
+	
+	  </head>
+<head>
+	<title>Student Operator Algebras Seminar | Alejandro Cano</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!--[if lte IE 8]><script src="/forty-jekyll-theme/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/forty-jekyll-theme/assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="/forty-jekyll-theme/assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="/forty-jekyll-theme/assets/css/ie8.css" /><![endif]-->
+	  <!-- KaTeX CSS -->
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+	  <!-- KaTeX JavaScript -->
+	  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+	  <!-- KaTeX Auto-Render -->
+	  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>
+	  <script>
+		  document.addEventListener("DOMContentLoaded", function() {
+			  renderMathInElement(document.body, {
+				  // ...options...
+			  });
+		  });
+	  </script>
+
+</head>
+
+
+<body>
+
+    <!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header">
+	<a href="/forty-jekyll-theme/" class="logo"><strong>Alejandro Cano</strong> <span></span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="/forty-jekyll-theme/">Home</a></li>
+	    	
+		
+		    
+		
+		    
+		
+		    
+		
+		
+		    
+		
+		    
+		        <li><a href="/forty-jekyll-theme/all_posts.html">All posts</a></li>
+		    
+		
+		    
+		        <li><a href="/forty-jekyll-theme/elements.html">About me</a></li>
+		    
+		
+		    
+		        <li><a href="/forty-jekyll-theme/generic.html">Research</a></li>
+		    
+		
+		    
+		
+		    
+		        <li><a href="/forty-jekyll-theme/landing.html">Academics</a></li>
+		    
+		
+		    
+		        <li><a href="/forty-jekyll-theme/photography.html">Photography</a></li>
+		    
+		
+	</ul>
+	<!--<ul class="actions vertical">
+		<li><a href="#" class="button special fit">Get Started</a></li>
+		<li><a href="#" class="button fit">Log In</a></li>
+	</ul>-->
+</nav>
+ 
+    
+    
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>Student Operator Algebras Seminar</h1>
+		</header>
+		<span class="image main"><img src="/forty-jekyll-theme/assets/images/IMG_20240617_084434.jpg" alt="" /></span>
+		<h2 id="welcome-">Welcome!</h2>
+<hr />
+
+<p>The aim of this student seminar is to ignite interest in the fascinating field of operator algebras. We plan to introduce participants to a diverse range of topics within $C^*$-algebra and von Neumann algebra theory. Our goal is to foster a vibrant community where graduate students from various disciplines can attend, learn, and engage with significant results, concepts, and tools that intersect with their own research and coursework.</p>
+<p>Topics include but are not limited to:</p>
+<ul>
+<li>Operator K-theory</li>
+<li>Index Theory</li>
+<li>Topological Dynamics</li>
+<li>$C^*$-algebra theory</li>
+<li>von Neumann algebra theory</li>
+<li>Noncommutative geometry and topology</li>
+</ul>
+
+<p>If you are not familiar with these topics, not to worry, here are some references which go beyond Wikipedia:</p>
+<ul>
+<li><p>An Introduction to $C^*$-Algebras and the Classification Program by <em>Karen</em> <em>Strung</em></p>
+<ul>
+<li><a href="https://link.springer.com/book/10.1007/978-3-030-47465-2">https://link.springer.com/book/10.1007/978-3-030-47465-2</a></li>
+</ul>
+</li>
+<li><p>Von Neumann Algebras by
+Rolando de Santiago and Brent Nelson </p>
+<ul>
+<li><a href="https://users.math.msu.edu/users/banelson/conferences/GOALS/notes/vNa_notes.pdf">GOALS notes</a></li>
+</ul>
+</li>
+<li><p>An introduction to K-theory for $C^*$-algebras by Rørdam, Larsen, and Laustsen</p>
+<ul>
+<li><a href="https://wiki.math.ntnu.no/_media/ma8107/2014h/rordam_m.pdf">https://wiki.math.ntnu.no/_media/ma8107/2014h/rordam_m.pdf</a></li>
+</ul>
+</li>
+<li><p>An Introduction to $C^*$-Algebras and Noncommutative Geometry by Heath Emerson</p>
+<ul>
+<li><a href="https://link.springer.com/book/10.1007/978-3-031-59850-0">https://link.springer.com/book/10.1007/978-3-031-59850-0</a></li>
+</ul>
+</li>
+</ul>
+
+<p>The seminar is on <strong>Mondays at 4:30</strong>, and if you would like to give at talk, please email cano13 at purdue dot edu.</p>
+<hr />
+
+<p>The schedule for fall 2025 is below:</p>
+
+<ul>
+<li><p><strong>August 29</strong>, Introductions and interests, location: MATH </p>
+<ul>
+<li>Speakers: <em>Alejandro Cano, Hao Wan, Chrisil Ouseph</em></li>
+</ul>
+</li>
+<hr />
+<li><p><strong>September 9</strong>, Direct integral decomposition of von Neumann algebras, location: SCHM 314</p>
+<li><em>Abstract:</em> In this survey talk, we will explore the direct integral of von Neumann algebras and its applications to addressing problems related to the rigidity of group von Neumann algebras with diffuse center.</li>
+<ul>  
+<li>Speaker: <em>Adriana Fernández Quero</em>, University of Iowa</li>
+</ul>
+</li>
+</ul>
+<hr />
+
+<ul>
+<li><p><strong>September 16</strong>, Group $C^*$-Algebras, the Fourier transform and locally compact groups.</p>
+</li>
+<li><p><em>Abstract</em>: We define two types of $C^*$-Algebras which we can associate to a large class of groups, and study the properties which each object can reflect from the other. In doing so, we state a number of theorems which tie the Fourier transform  to a dual object of the group $C^*$-Algebra we construct. The tools along the way will include representation theory, abstract integration theory, and functional analysis. </p>
+<ul>
+<li>Speaker: <em>Alejandro Cano</em>, Purdue University</li>
+</ul>
+</li>
+</ul>
+<hr />
+
+<ul>
+<li><p><strong>September 23</strong>, Hilbert Hotels on Hilbert Spaces. location: SCHM 314</p>
+</li>
+<li><p><em>Abstract</em>:  The talk will shine a light on the rich and underrated history of the interaction between set theory and operator algebras. We will warm up with a brisk jog through the necessary prerequisites in logic. A surprising survey of several results will follow, starting with an independence result in functional analysis. The remainder of the talk will be a showcase of some of the unexpected consequences in operator algebras of the Continuum Hypothesis and other independent axioms: a representation theorem for the double dual of $C[0,1]$, weak expectations on von Neumann algebras, ultrapowers, and automorphisms on the Caulkin Algebra.
+ </p>
+<ul>
+<li>Speaker: <em>Chrisil Ouseph</em>, Purdue University</li>
+</ul>
+</li>
+</ul>
+<hr />
+
+<ul>
+<li><p><strong>September 30</strong>, Introduction to finite free probability. location: SCHM 314
+</p>
+</li>
+<li><p><em>Abstract</em>:  Finite free additive and multiplicative convolutions are binary operations of polynomials that behave well with respect to the roots. These operations have gained interest in recent years due to its interpretation as expected characteristic polynomials of random matrix operations and their connection to free probability, geometry of polynomials, representation theory and combinatorics. We will study in detail the basic properties of these convolutions of polynomials, survey the results in the area, and mention some interesting open problems.
+ </p>
+<ul>
+<li>Speaker: <em>Daniel Perales</em>, Texas A&amp;M</li>
+</ul>
+</li>
+</ul>
+
+<hr />
+
+<ul>
+<li><p><strong>October 21</strong>, The K-theoretic Atiyah-Singer Index Theorem. location: SCHM 314
+</p>
+</li>
+<li><p><em>Abstract</em>: Index theorems relate global analytic information of a manifold (the number of solutions to an elliptic PDE on the manifold) to a sum of topological invariants over the manifold. Index theorems relate topology and analysis with applications ranging from mathematical physics to operator algebras. I will state and unpack the Atiyah-Singer Index theorem in the language of K-theory, which provides the most "big picture" overview of the result.
+ </p>
+<ul>
+<li>Speaker: <em>General Ozochiawaeze</em>, Purdue University</li>
+</ul>
+</li>
+</ul>
+<hr />
+
+<ul>
+<li><p><strong>October 28</strong>, The $C^*$-algebra version of the topological 2-torus. (Part 1) location: SCHM 314
+</p>
+</li>
+<li><p><em>Abstract</em>: Irrational rotation algebras, also known as noncommutative tori, are
+noncommutative $C^*$-algebras that generalize the algebra of continuous functions on the two-dimensional torus. These algebras are defined as universal
+$C^*$-algebras associated with a specific set of generators and relations, in terms
+of a rotation angle $\theta\notin \mathbb{Q}.$ In particular, irrational rotation algebras have a
+unique tracial state and can be embedded into an AF-algebra, allowing us to
+explore their invariants via Elliott’s Theorem for AF-algebras. In this talk, we
+will discuss the construction of irrational rotation algebras and explore how the
+uniqueness of the tracial state facilitates the identification of complete invariants in K-theoretic terms. These invariants enable us to determine when two
+irrational rotation algebras are isomorphic based on their rotation parameters.
+If time permits, we will present details on the embedding technique used for the
+classification theorem.
+This talk will be mainly based on Chapter VI of the book $C^*$-algebras by
+Example by Ken Davidson.
+ </p>
+<ul>
+<li>Speaker: <em>Jose Manuel Barrientos Lopez</em>, Purdue University</li>
+</ul>
+</li>
+</ul>
+
+<hr />
+
+<ul>
+<li><p><strong>November 4</strong>, The $C^*$-algebra version of the topological 2-torus. (Part 2) location: SCHM 314
+</p>
+</li>
+<li><p><em>Abstract</em>: Irrational rotation algebras, also known as noncommutative tori, are
+noncommutative $C^*$-algebras that generalize the algebra of continuous functions on the two-dimensional torus. These algebras are defined as universal
+$C^*$-algebras associated with a specific set of generators and relations, in terms
+of a rotation angle $\theta\notin \mathbb{Q}.$ In particular, irrational rotation algebras have a
+unique tracial state and can be embedded into an AF-algebra, allowing us to
+explore their invariants via Elliott’s Theorem for AF-algebras. In this talk, we
+will discuss the construction of irrational rotation algebras and explore how the
+uniqueness of the tracial state facilitates the identification of complete invariants in K-theoretic terms. These invariants enable us to determine when two
+irrational rotation algebras are isomorphic based on their rotation parameters.
+If time permits, we will present details on the embedding technique used for the
+classification theorem.
+This talk will be mainly based on Chapter VI of the book $C^*$-algebras by
+Example by Ken Davidson.
+ </p>
+<ul>
+<li>Speaker: <em>Jose Manuel Barrientos Lopez</em>, Purdue University</li>
+</ul>
+</li>
+</ul>
+
+<hr />
+
+<ul>
+<li><p><strong>November 11 </strong>, Rigidity for von Neumann Algebras Arising from Groups. location: SCHM 314
+</p>
+</li>
+<li><p><em>Abstract</em>: I will survey some rigidity results for II$_1$ factors arising from countable groups, e.g. $L(G)$ and $L^{\infty}(X, \mu) \rtimes G$. Time permitting, I will either go into more detail about the philosophy of deformation/rigidity or emphasize the geometric properties of groups and their actions necessary for rigidity results.
+ </p>
+<ul>
+<li>Speaker: <em>Patrick Debonis</em>, Purdue University</li>
+</ul>
+</li>
+</ul>
+
+
+	</div>
+</section>
+
+</div>
+
+    <!-- Contact -->
+<section id="contact">
+	<div class="inner">
+		<section>
+			<form action="https://formspree.io/f/mayrlzwj" method="POST">
+				<div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="_replyto" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="special" /></li>
+					<li><input type="reset" value="Clear" /></li>
+				</ul>
+			</form>
+		</section>
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-envelope"></span>
+					<h3>Email</h3>
+					<a href="mailto:cano13@purdue.edu">cano13@purdue.edu</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-phone"></span>
+					<h3>Phone</h3>
+					<a href="tel:"></a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-home"></span>
+					<h3>Address</h3>
+					<span>
+					
+					    150 N. University Street<br />
+					
+					
+					    West Lafayette,
+					
+					
+					    IN 
+					
+					
+					    47907-2067<br />
+					
+					
+					    United States of America
+					
+					</span>
+				</div>
+			</section>
+		</section>
+	</div>
+</section>
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Alejandro Cano </li>
+				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+				<li>Jekyll integration: <a href="https://github.com/andrewbanchich" target="_blank">Andrew Banchich</a></li>
+
+			</ul>
+		</div>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+	<script src="/forty-jekyll-theme/assets/js/jquery.min.js"></script>
+	<script src="/forty-jekyll-theme/assets/js/jquery.scrolly.min.js"></script>
+	<script src="/forty-jekyll-theme/assets/js/jquery.scrollex.min.js"></script>
+	<script src="/forty-jekyll-theme/assets/js/skel.min.js"></script>
+	<script src="/forty-jekyll-theme/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="/forty-jekyll-theme/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="/forty-jekyll-theme/assets/js/main.js"></script>
+
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+		  const coll = document.getElementsByClassName("collapsible");
+		  for (let i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function () {
+			  this.classList.toggle("active");
+			  const content = this.nextElementSibling;
+			  if (content.style.display === "block") {
+				content.style.display = "none";
+			  } else {
+				content.style.display = "block";
+			  }
+			});
+		  }
+		});
+	  </script>
+
+</body>
+
+</html>
