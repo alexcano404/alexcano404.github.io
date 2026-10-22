@@ -8,6 +8,12 @@ For a personal site on the `alexcano404` account, use the repository name `alexc
 
 Google Fonts are loaded remotely; the page remains readable if that service is unavailable. The photo gallery and project visuals are included under `assets/google-site/`.
 
+## Languages
+
+The navigation language button offers English, Spanish, and Simplified Chinese. Translations include the academic history, research, projects, seminar archive, photography captions, image descriptions, and accessible control labels. The visitor's choice is remembered locally when browser storage is available; English is the default. Names, software identifiers, links, and text embedded inside images retain their original form.
+
+Translation pairs are maintained in `assets/translations.js`, keyed by the original English text. `assets/languages.js` switches text without replacing links or interactive elements, and `assets/languages.css` styles the responsive picker. When changing English copy, update its translation key as well. Run `node tests/languages.cjs` from the repository root to check switching, restoration, persistence, storage fallback, and dynamic control labels.
+
 ## Search engines
 
 The root-level `robots.txt` allows crawling and points crawlers to `sitemap.xml`. The sitemap lists the canonical home page at `https://alexcano404.github.io/`. The page also includes a canonical URL, social sharing metadata, and basic Person structured data. No build step or additional package dependencies are required.

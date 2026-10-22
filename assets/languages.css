@@ -1,0 +1,13 @@
+.language-picker{position:relative;margin-left:16px}
+.language-toggle{border:1px solid var(--line);background:transparent;padding:9px 11px;font:400 10px/1 var(--mono);letter-spacing:.07em;text-transform:uppercase;white-space:nowrap;cursor:pointer}
+.language-toggle:hover,.language-toggle:focus-visible{border-color:var(--blue);color:var(--blue)}
+.language-options{position:absolute;right:0;top:calc(100% + 10px);min-width:170px;padding:6px;background:var(--ink);border:1px solid var(--line);box-shadow:0 8px 24px #0002;z-index:25}
+.language-options[hidden]{display:none}
+.language-options button{display:block;width:100%;padding:11px 12px;border:0;background:transparent;text-align:left;font:400 14px/1.4 var(--sans);cursor:pointer}
+.language-options button:hover,.language-options button:focus-visible,.language-options button[aria-pressed="true"]{background:var(--surface);outline-offset:-2px}
+.language-options button[aria-pressed="true"]:after{content:' ✓'}
+html:not([lang="en"]) .section-title,html:not([lang="en"]) .contact h2{white-space:normal;line-height:1.15}
+html[lang="zh-Hans"] body{font-family:"Instrument Sans","Microsoft YaHei","PingFang SC",sans-serif}
+html[lang="zh-Hans"] .section-title,html[lang="zh-Hans"] .contact h2{letter-spacing:0}
+@media(max-width:1200px){.nav{grid-template-columns:1fr auto}.nav-label{display:none}.nav-links{display:none;grid-column:auto;grid-row:auto}.nav-actions{grid-column:2;grid-row:1}.nav-actions .menu-toggle{display:block}.nav-links.is-open{position:fixed;top:66px;left:0;right:0;display:grid;gap:0;padding:10px var(--gutter) 22px;background:var(--nav-bg);border-bottom:1px solid var(--line);max-height:calc(100svh - 66px);overflow:auto}.nav-links.is-open a{padding:14px 0;border-bottom:1px solid var(--line);font-size:12px}.language-picker{margin-left:0}}
+@media(max-width:440px){.brand{font-size:10px;letter-spacing:.03em;gap:6px}.brand-mark{display:none}.nav-actions{gap:5px}.language-toggle,.theme-toggle,.menu-toggle{font-size:9px;padding:9px 7px;letter-spacing:0}.nav{padding-inline:12px}.language-options{min-width:160px}}

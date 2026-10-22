@@ -66,6 +66,7 @@
     .contact{background:var(--contact-bg);color:var(--contact-fg)}.contact .eyebrow{color:var(--contact-muted)}.contact-bottom{border-top-color:var(--contact-line)}.contact-bottom p{color:var(--contact-muted)}.contact-link{color:var(--contact-fg)}footer{color:var(--muted)}
     @media(max-width:760px){.nav{grid-template-columns:1fr auto}.nav-label{display:none}.nav-links{grid-column:auto;grid-row:auto}.nav-actions{grid-column:2;grid-row:1}.nav-actions .menu-toggle{display:block}.nav-links.is-open{background:var(--nav-bg)}}
   .torus-widget{position:absolute;right:7vw;top:12%;width:min(30vw,360px);z-index:2}.torus-widget .hero-field{position:static;width:100%;height:auto;opacity:.92;touch-action:none;cursor:grab}.hero-field.dragging{cursor:grabbing}.torus-controls{display:flex;justify-content:center;gap:7px;margin-top:-12px}.torus-controls button{display:grid;place-items:center;width:27px;height:27px;padding:0;border:1px solid var(--line);border-radius:50%;background:transparent;color:var(--blue);font:16px/1 Arial,sans-serif;cursor:pointer;opacity:.65}.torus-controls button:hover,.torus-controls button:focus-visible{opacity:1;background:var(--surface)}@media(max-width:760px){.torus-widget{right:0;top:14%;width:40vw}.torus-widget .hero-field{opacity:.65}}.hero-identity{display:flex;align-items:center;justify-content:space-between;gap:clamp(12px,3vw,48px);margin:40px 0}.hero .hero-identity h1{margin:0;font-size:clamp(24px,5.7vw,92px)}.hero-identity .torus-widget{position:relative;inset:auto;flex:0 0 28%;width:28%;max-width:360px}.hero-identity .torus-controls{position:absolute;top:100%;left:0;right:0;margin-top:-16px}@media(max-width:760px){.hero-identity{gap:10px}.hero .hero-identity h1{font-size:clamp(18px,5.7vw,43px)}.hero-identity .torus-widget{flex-basis:29%;width:29%}.hero-identity .torus-controls{margin-top:-4px}.torus-controls button{width:25px;height:25px}} </style>
+  <link rel="stylesheet" href="assets/languages.css">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -75,7 +76,7 @@
     <nav class="nav-links" id="nav-links" aria-label="Main navigation">
       <a href="#diagnosis">About</a><a href="#prices">Research</a><a href="#bench">Academics</a><a href="#parts">Projects</a><a href="#refurb">Seminar</a><a href="#fleet">Photography</a>
     </nav>
-    <div class="nav-actions"><button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Dark mode</button><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button></div>
+    <div class="nav-actions"><div class="language-picker"><button class="language-toggle" type="button" aria-label="Choose language" aria-expanded="false" aria-controls="language-options">Languages ▾</button><div class="language-options" id="language-options" role="group" aria-label="Languages" hidden><button type="button" data-language="en" lang="en" aria-pressed="true">English</button><button type="button" data-language="es" lang="es" aria-pressed="false">Español</button><button type="button" data-language="zh" lang="zh-Hans" aria-pressed="false">中文（简体）</button></div></div><button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Dark mode</button><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button></div>
   </header>
   <main id="main">
     <section class="hero wrap" id="opening" data-8b-section="opening" aria-labelledby="hero-title">
@@ -351,6 +352,8 @@
     menuButton.addEventListener('click',()=>{const open=menuButton.getAttribute('aria-expanded')==='true';menuButton.setAttribute('aria-expanded',String(!open));navLinks.classList.toggle('is-open',!open);});
     navLinks.addEventListener('click',event=>{if(event.target.closest('a')){menuButton.setAttribute('aria-expanded','false');navLinks.classList.remove('is-open');}});
   </script>
+  <script src="assets/translations.js"></script>
+  <script src="assets/languages.js"></script>
 </body>
 </html>
 
