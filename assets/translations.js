@@ -1,4 +1,16 @@
 window.siteMessages = {
+  "Higher Rank Graphs in Algebra, Geometry and C*-Algebras": [
+    "Grafos de rango superior en álgebra, geometría y C*-álgebras",
+    "代数、几何与C*-代数中的高秩图"
+  ],
+  "Banff International Research Station": [
+    "Estación Internacional de Investigación de Banff",
+    "班夫国际研究站"
+  ],
+  "Nov 2026": [
+    "noviembre de 2026",
+    "2026年11月"
+  ],
   "Alejandro Cano — Mathematics": [
     "Alejandro Cano — Matemáticas",
     "Alejandro Cano — 数学"
