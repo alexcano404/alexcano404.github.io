@@ -351,6 +351,10 @@ window.siteMessages = {
     "Tesis de investigación · Dr. Andrew Toms",
     "研究论文 · Andrew Toms博士"
   ],
+  "Purdue University (Graduate Student Operator Algebras Seminar)": ["Universidad Purdue (Seminario de Álgebras de Operadores para Estudiantes de Posgrado)","普渡大学（研究生算子代数研讨班）"],
+  "Purdue University (Graduate Student Colloquium)": ["Universidad Purdue (Coloquio de Estudiantes de Posgrado)","普渡大学（研究生学术报告会）"],
+  "K-theory, the Cuntz semigroup, and inductive limit algebras.": ["K-teoría, el semigrupo de Cuntz y álgebras de límite inductivo.","K-理论、Cuntz半群与归纳极限代数。"],
+  "Brin Center for Mathematics Research, University of Maryland (From Dynamics to C*-Algebras and Back Again: Exploring Topological Invariants)": ["Centro Brin de Investigación Matemática, Universidad de Maryland (De la dinámica a las C*-álgebras y viceversa: explorando invariantes topológicos)","马里兰大学Brin数学研究中心（从动力系统到C*-代数再返回：探索拓扑不变量）"],
   "Selected talks": [
     "Charlas seleccionadas",
     "部分报告"
