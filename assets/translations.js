@@ -1,4 +1,12 @@
 window.siteMessages = {
+  "Mar 29-Apr 2, 2027": ["29 de marzo-2 de abril de 2027", "2027?3?29?-4?2?"],
+  "Noncommutative Geometry at Crossroads": ["Geometr�a no conmutativa en la encrucijada", "??????????"],
+  "Fields Institute": ["Instituto Fields", "??????"],
+  "Jan 13, 2027": ["13 de enero de 2027", "2027?1?13?"],
+  "Mar 20, 2027": ["20 de marzo de 2027", "2027?3?20?"],
+  "New Structure for Villadsen Algebras of the First Type": ["Nueva estructura para las �lgebras de Villadsen del primer tipo", "???Villadsen??????"],
+  "Joint Mathematics Meetings (AMS Special Session on Advances in Operator Algebras and Noncommutative Geometry, III)": ["Reuni�n Conjunta de Matem�ticas (Sesi�n Especial de la AMS sobre Avances en Algebras de Operadores y Geometr�a No Conmutativa, III)", "??????(?????????????????????,III)"],
+  "52nd Annual New York State Regional Graduate Mathematics Conference": ["52.� Conferencia Anual Regional de Matem�ticas para Estudiantes de Posgrado del Estado de Nueva York", "?52?????????????"],
   "Higher Rank Graphs in Algebra, Geometry and C*-Algebras": [
     "Grafos de rango superior en álgebra, geometría y C*-álgebras",
     "代数、几何与C*-代数中的高秩图"
