@@ -7,6 +7,10 @@ window.siteMessages = {
   "New Structure for Villadsen Algebras of the First Type": ["Nueva estructura para las �lgebras de Villadsen del primer tipo", "???Villadsen??????"],
   "Joint Mathematics Meetings (AMS Special Session on Advances in Operator Algebras and Noncommutative Geometry, III)": ["Reuni�n Conjunta de Matem�ticas (Sesi�n Especial de la AMS sobre Avances en Algebras de Operadores y Geometr�a No Conmutativa, III)", "??????(?????????????????????,III)"],
   "52nd Annual New York State Regional Graduate Mathematics Conference": ["52.� Conferencia Anual Regional de Matem�ticas para Estudiantes de Posgrado del Estado de Nueva York", "?52?????????????"],
+  "Spring 2027": ["Primavera de 2027", "2027年春季"],
+  "CS 17300 · AI Competency ·": ["CS 17300 · Competencia en inteligencia artificial ·", "CS 17300 · 人工智能素养 ·"],
+  "Graduate Teaching Assistant": ["Asistente de docencia de posgrado", "研究生助教"],
+  "College of Science, Department of Computer Science, Purdue University": ["Facultad de Ciencias, Departamento de Ciencias de la Computación, Universidad Purdue", "普渡大学理学院计算机科学系"],
   "Higher Rank Graphs in Algebra, Geometry and C*-Algebras": [
     "Grafos de rango superior en álgebra, geometría y C*-álgebras",
     "代数、几何与C*-代数中的高秩图"
